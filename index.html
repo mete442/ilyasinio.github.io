@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ylýas Öweznepesow — Motion Designer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+</head>
+<body class="bg-gray-900 text-gray-100">
+  <!-- ✅ Header -->
+  <header class="max-w-6xl mx-auto p-6 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <div class="w-12 h-12 rounded-lg flex items-center justify-center text-white font-bold shadow-lg bg-yellow-600">YO</div>
+      <div>
+        <h1 class="text-xl font-semibold text-white">Ylýas Öweznepesow — Motion Designer</h1>
+        <p class="text-sm text-gray-400">After Effects • Premiere Pro • Illustrator • Canva • AI</p>
+      </div>
+    </div>
+    <nav class="space-x-6 text-sm text-gray-300">
+      <a href="#projects" class="hover:text-yellow-400">işlerim</a>
+      <a href="#about" class="hover:text-yellow-400">Biz Barada</a>
+      <a href="#contact" class="font-medium text-yellow-400">Habarlaşmak üçin</a>
+    </nav>
+  </header>
+
+  <!-- ✅ Hero Section with Video -->
+  <section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center p-8">
+    <div>
+      <h2 class="text-3xl font-extrabold text-white leading-tight">Motion Dizayn bilen Markanyňyza Enerji Katyn!</h2>
+      <p class="mt-4 text-gray-400">Sosial mediýa, reklam we YouTube üçin gysga, täsirli we özboluşly motion wideolar.</p>
+      <div class="mt-6 flex gap-3">
+        <a href="#contact" class="px-4 py-2 bg-yellow-600 text-white rounded-lg shadow-md hover:opacity-90">Teklip AL</a>
+  <a href="projects.html?playAll=0" target="_blank" rel="noopener noreferrer" class="px-4 py-2 border border-gray-500 rounded-lg hover:border-yellow-400">Işleri Gör</a>
+        <!-- ✅ Yeni: Video oynatma sayfasına git -->
+        <a href="logo gosacynar.mp4" class="px-4 py-2 bg-yellow-500 text-white rounded-lg shadow-md hover:opacity-90">🎥 Video Aç</a>
+      </div>
+    </div>
+    <div class="rounded-lg overflow-hidden shadow-xl border border-gray-700">
+      <video controls src="gosa cynar.mp4" class="w-full h-64 object-cover bg-black">Your browser does not support the video tag.</video>
+    </div>
+  </section>
+
+  <!-- ✅ Projects Grid -->
+  <section id="projects" class="max-w-6xl mx-auto p-8">
+    <h3 class="text-2xl font-bold text-white">Işlerim</h3>
+    <p class="text-gray-400 mt-2">Basyp görüp, wideo doly ekranda açylar.</p>
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden cursor-pointer hover:scale-105 transition">
+        <div class="h-40 bg-gray-700 relative">
+          <video controls src="Horizontal.mp4" poster="" class="w-full h-full object-cover">Your browser does not support the video tag.</video>
+          <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <span class="bg-black bg-opacity-50 text-white px-3 py-1 rounded">▶</span>
+          </div>
+        </div>
+        <div class="p-4">
+          <h4 class="font-semibold text-white">Render FHD</h4>
+          <p class="text-sm text-gray-400 mt-1">bina banerler · 10–15s</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden cursor-pointer hover:scale-105 transition">
+        <div class="h-40 bg-gray-700 relative">
+          <video controls src="oguz reklam 1 - Trim.mp4" poster="" class="w-full h-full object-cover">Your browser does not support the video tag.</video>
+          <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <span class="bg-black bg-opacity-50 text-white px-3 py-1 rounded">▶</span>
+          </div>
+        </div>
+        <div class="p-4">
+          <h4 class="font-semibold text-white">Oguz Reklam</h4>
+          <p class="text-sm text-gray-400 mt-1">reklam · 8–12s</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden cursor-pointer hover:scale-105 transition">
+        <div class="h-40 bg-gray-700 relative">
+          <video controls src="togtul çagryl masut urslar 4.mp4" poster="" class="w-full h-full object-cover">Your browser does not support the video tag.</video>
+          <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <span class="bg-black bg-opacity-50 text-white px-3 py-1 rounded">▶</span>
+          </div>
+        </div>
+        <div class="p-4">
+          <h4 class="font-semibold text-white">Togtul Çağryl</h4>
+          <p class="text-sm text-gray-400 mt-1">reel · 6–10s</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Contact Form -->
+  <section id="contact" class="max-w-3xl mx-auto p-8 mt-16 bg-gray-800 rounded-xl shadow-lg">
+    <h3 class="text-2xl font-bold text-white mb-4">Teklif Gönder</h3>
+    <p class="text-gray-400 mb-6">Aşakdaky formany dolduryp bize teklip iberiň.</p>
+    <form action="mailto:mete234khan@gmail.com" method="post" enctype="text/plain" class="space-y-4">
+      <input type="text" name="name" placeholder="Adyňız" required class="w-full p-3 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500" />
+      <input type="email" name="email" placeholder="Email adresiňiz" required class="w-full p-3 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500" />
+      <textarea name="message" placeholder="Teklipňiz" rows="4" required class="w-full p-3 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+      <button type="submit" class="w-full py-3 bg-yellow-600 text-white rounded-lg font-semibold hover:opacity-90 transition">Gönder</button>
+    </form>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer class="mt-12 border-t border-gray-700">
+    <div class="max-w-6xl mx-auto p-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
+      <div>© 2025 Ylýas Öweznepesow — Motion Designer</div>
+      <div class="mt-4 md:mt-0">Portfolio şablony — taslamalaryňyzy goşuň.</div>
+    </div>
+  </footer>
+</body>
+</html>
